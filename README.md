@@ -45,7 +45,7 @@ CUDA_VISIBLE_DEVICES="0" NCCL_P2P_DISABLE=1  torchrun --nproc_per_node=1 --maste
 ```
 
 ## Acknowledgements
-Thanks to authors of Diffusion Models Beat GANs on Image Synthesis sharing their code. Most of the code is borrowed from the guided diffusion
+Thanks to authors of Diffusion Models Beat GANs on Image Synthesis sharing their code. Most of the code is borrowed from guided diffusion
 ```
 https://github.com/openai/guided-diffusion
 ```
